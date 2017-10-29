@@ -6,7 +6,7 @@ __Help to master romanization systems elder than Hanyu Pinyin__
 ##	Table of contents
 
 *	[Get Started](#get-started)
-#   [Commands](#commands)
+*   [Commands](#commands)
 *	[API](#api)
 * 	[Examples](#examples)
 *	[Why tsinghua](#why-tsinghua)
@@ -41,6 +41,12 @@ let pinyin = wade.fromPinyin('jiang');
 *   __tsing py2wg__  
     执行 *汉语拼音* 至 *威妥玛拼音* 的转换。
 
+*   __tsing po2zh__  
+    执行 *邮政拼音* 至汉字专有名词的转换。
+
+*   __tsing zh2po__  
+    执行汉字专有名词至 *邮政拼音* 的转换。
+
 ##	API
 
 ### wade
@@ -49,7 +55,7 @@ let pinyin = wade.fromPinyin('jiang');
 
 ### postal
 
-通过 `require('tsing/postal')` 引用 *邮政拼音* 工具包。
+通过 `require('tsing/postal')` 引用 *邮政拼音* 工具包。目前只从至今仍在广泛使用的名词中，选择性地收录了若干，今后我们会在严谨考证的前提下，逐渐扩大收录范围。
 
 ##  Examples
 

@@ -1,9 +1,11 @@
 {
     "bin": {
-        "pinyin": "bin/pinyin.js",
-        "tsinghua": "bin/pinyin.js"
+        "pinyin": "bin/tsing.js",
+        "tsing": "bin/tsing.js"
     },
-    "dependencies": {},
+    "dependencies": {
+        "noda": "^0.0.1"
+    },
     "devDependencies": {
         "mocha": "^3.3.0"
     },

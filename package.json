@@ -1,0 +1,35 @@
+{
+    "bin": {
+        "pinyin": "bin/pinyin.js",
+        "tsinghua": "bin/pinyin.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "mocha": "^3.3.0"
+    },
+    "directories": {},
+    "scripts": {
+        "test": "mocha"
+    },
+    "name": "tsing",
+    "version": "0.0.1",
+    "main": "index.js",
+    "keywords": [
+        "Hanyu-Pinyin",
+        "pinyin",
+        "Wade-Giles",
+        "romanization",
+        "Postal-Spelling-System"
+    ],
+    "homepage": "https://github.com/YounGoat/tsing",
+    "description": "Help to master romanization systems elder than Hanyu Pinyin",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YounGoat/tsing.git"
+    },
+    "author": {
+        "name": "YounGoat",
+        "email": "youngoat@163.com",
+        "url": "https://youngoat.github.io"
+    }
+}

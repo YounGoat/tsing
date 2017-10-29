@@ -36,7 +36,7 @@ let pinyin = wade.fromPinyin('jiang');
 // RETURN: [ 'chiang' ]
 ```
 
-##  Commmands
+##  Commands
 
 *   __tsing py2wg__  
     执行 *汉语拼音* 至 *威妥玛拼音* 的转换。

@@ -4,7 +4,7 @@
         "tsing": "bin/tsing.js"
     },
     "dependencies": {
-        "noda": "^0.0.1"
+        "noda": "^0.1.2"
     },
     "devDependencies": {
         "mocha": "^3.3.0"
@@ -14,7 +14,7 @@
         "test": "mocha"
     },
     "name": "tsing",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "index.js",
     "keywords": [
         "Hanyu-Pinyin",

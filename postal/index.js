@@ -14,12 +14,16 @@ function fromChinese(term) {
     return postal;
 }
 
+function uniform_postal(postal) {
+    return postal.toLowerCase().replace(' ', '').replace('-', '');
+}
+
 function toChinese(postal) {
-    postal = postal.toLowerCase();
+    postal = uniform_postal(postal);
     
     let zh = null;
     for (let name in chinese2postal) {
-        if (chinese2postal[name].toLowerCase() == postal) {
+        if (uniform_postal(chinese2postal[name]) == postal) {
             zh = name;
             break;
         }

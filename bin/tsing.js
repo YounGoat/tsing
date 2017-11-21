@@ -19,6 +19,10 @@ if (argv.length && !argv[0].startsWith('-')) {
 }
 
 if (command) {
+    if (!noda.inExists(`command/${command}`, true)) {
+        console.error(`sub command not supported: ${command}`);
+        process.exit(1);
+    }
     noda.inRequire(`command/${command}`)(argv);
 }
 else {

@@ -1,7 +1,7 @@
 #	tsing
 __Help to master romanization systems elder than Hanyu Pinyin__
 
-在我们目前所使用的 *汉语拼音* 之前，汉字拉丁化注音方案可谓五花八门。其中尤以 *威妥玛拼音* 最为系统、也最为知名，此外，*邮政拼音* 则在专有名词（主要是地名）领域影响广泛。本工具旨在帮助大家快速查找不同注音之间的对照关系。
+在我们目前所使用的 *汉语拼音* 之前，汉字拉丁化注音方案可谓五花八门。其中尤以 *威妥玛拼音* 最为系统、也最为知名，此外，*邮政拼音* 则在专有名词（主要是地名）领域影响广泛，吸收了大量方言拼音（特别是南方的广东话和客家话）以及其他约定俗成的拼写方法。本工具旨在帮助大家快速查找不同注音之间的对照关系。
 
 ##	Table of contents
 
@@ -9,7 +9,7 @@ __Help to master romanization systems elder than Hanyu Pinyin__
 *   [Commands](#commands)
 *	[API](#api)
 * 	[Examples](#examples)
-*	[Why tsinghua](#why-tsinghua)
+*	[Why tsing](#why-tsing)
 *	[Honorable Dependents](#honorable-dependents)
 *	[About](#about)
 *	[References](#references)
@@ -69,3 +69,4 @@ let pinyin = wade.fromPinyin('jiang');
 
 *   维基百科，[威妥瑪拼音](https://zh.wikipedia.org/wiki/威妥瑪拼音)
 *   维基百科，[邮政式拼音](https://zh.wikipedia.org/zh-cn/郵政式拼音)
+*   百度百科，[邮政式拼音](https://baike.baidu.com/item/邮政式拼音)

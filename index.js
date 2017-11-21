@@ -1,12 +1,1 @@
-'use strict';
-
-const MODULE_REQUIRE = 1
-    /* built-in */
-    
-    /* NPM */
-    
-    /* in-package */
-    ;
-
-
-module.exports = '';
+'APIs are not available yet.'
